@@ -1,0 +1,1254 @@
+#html { font-size: 10px; }
+#main {
+    height: 45rem;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+@keyframes card1{
+    0% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    10% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+}
+#card1 {
+    position: absolute;
+    top: 20%;
+    left: 37.5%;
+    height: 70%;
+    width: 25%;
+    z-index: 6;
+    animation: card1 20s none infinite;
+    background-color: red;
+}
+@keyframes card2 {
+    0% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    100% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+}
+#card2 {
+    position: absolute;
+    top: 24.5%;
+    left: 75%;
+    height: 61%;
+    width: 15%;
+    z-index: 5;
+    transform: rotateY(-45deg);
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    animation: card2 20s none infinite;
+    background-color: yellow;
+}
+@keyframes card3 {
+    0% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    90% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+}
+#card3 {
+    position: absolute;
+    top: 29%;
+    left: 72.5%;
+    height: 52%;
+    width: 15%;
+    z-index: 4;
+    transform: rotateY(45deg);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    animation: card3 20s none infinite;
+    background-color: green;
+}
+@keyframes card4 {
+    0% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    80% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+}
+#card4 {
+    position: absolute;
+    top: 34%;
+    left: 64%;
+    height: 42%;
+    width: 10%;
+    z-index: 3;
+    transform: rotateY(30deg);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    animation: card4 20s none infinite;
+    background-color: blue;
+}
+@keyframes card5 {
+    0% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    70% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+}
+#card5 {
+    position: absolute;
+    top: 38%;
+    left: 56%;
+    height: 34%;
+    width: 7.5%;
+    z-index: 2;
+    transform: rotateY(15deg);
+    clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+    animation: card5 20s none infinite;
+    background-color: black;
+}
+@keyframes card6 {
+    0% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    60% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+}
+#card6 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    height: 30%;
+    width: 10%;
+    z-index: 1;
+    animation: card6 20s none infinite;
+    background-color: pink;
+}
+@keyframes card7 {
+    0% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    50% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+}
+#card7 {
+    position: absolute;
+    top: 38%;
+    left: 36.5%;
+    height: 34%;
+    width: 7.5%;
+    z-index: 2;
+    transform: rotateY(-15deg);
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    animation: card7 20s none infinite;
+    background-color: orange;
+}
+@keyframes card8 {
+    0% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    40% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+}
+#card8 {
+    position: absolute;
+    top: 34%;
+    left: 26%;
+    height: 42%;
+    width: 10%;
+    z-index: 3;
+    transform: rotateY(-30deg);
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    animation: card8 20s none infinite;
+    background-color: seagreen;
+}
+@keyframes card9 {
+    0% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    20% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(0);
+    }
+    30% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+}
+#card9 {
+    position: absolute;
+    top: 29%;
+    left: 12.5%;
+    height: 52%;
+    width: 15%;
+    z-index: 4;
+    transform: rotateY(-45deg);
+    clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    animation: card9 20s none infinite;
+    background-color: blueviolet;
+}
+@keyframes card10 {
+    0% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    10% {
+        top: 20%;
+        left: 37.5%;
+        height: 70%;
+        width: 25%;
+        z-index: 6;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    20% {
+        top: 24.5%;
+        left: 75%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    30% {
+        top: 29%;
+        left: 72.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    40% {
+        top: 34%;
+        left: 64%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(30deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+    50% {
+        top: 38%;
+        left: 56%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(15deg);
+        clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+        filter: grayscale(100%);
+    }
+    60% {
+        top: 40%;
+        left: 45%;
+        height: 30%;
+        width: 10%;
+        z-index: 1;
+        transform: rotateY(0);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        filter: grayscale(100%);
+    }
+    70% {
+        top: 38%;
+        left: 36.5%;
+        height: 34%;
+        width: 7.5%;
+        z-index: 2;
+        transform: rotateY(-15deg);
+        clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+        filter: grayscale(100%);
+    }
+    80% {
+        top: 34%;
+        left: 26%;
+        height: 42%;
+        width: 10%;
+        z-index: 3;
+        transform: rotateY(-30deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    90% {
+        top: 29%;
+        left: 12.5%;
+        height: 52%;
+        width: 15%;
+        z-index: 4;
+        transform: rotateY(-45deg);
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        top: 24.5%;
+        left: 10%;
+        height: 61%;
+        width: 15%;
+        z-index: 5;
+        transform: rotateY(45deg);
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+        filter: grayscale(100%);
+    }
+
+}
+#card10 {
+    position: absolute;
+    top: 24.5%;
+    left: 10%;
+    height: 61%;
+    width: 15%;
+    z-index: 5;
+    transform: rotateY(45deg);
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    animation: card10 20s none infinite;
+    background-color: white;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgs {
+    height: 100%;
+    width: 100%;
+}
